@@ -105,7 +105,7 @@ filterButtons.forEach(function (button) {
     Do not include the + sign, spaces or hyphens.
 */
 
-const WHATSAPP_NUMBER = "233543761984";
+const WHATSAPP_NUMBER =https://wa.me/"233543761984";
 
 function createWhatsAppLink(message) {
     const numberIsConfigured =
