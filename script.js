@@ -105,7 +105,7 @@ filterButtons.forEach(function (button) {
     Do not include the + sign, spaces or hyphens.
 */
 
-const WHATSAPP_NUMBER = "233000000000";
+const WHATSAPP_NUMBER = "233543761984";
 
 function createWhatsAppLink(message) {
     const numberIsConfigured =
@@ -117,9 +117,9 @@ function createWhatsAppLink(message) {
     }
 
     return (
-        "https://wa.me/" +
+        "https://wa.me/"233543761984 +
         WHATSAPP_NUMBER +
-        "?text=" +
+        "?helo=" +
         encodeURIComponent(message)
     );
 }
