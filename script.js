@@ -100,7 +100,7 @@ filterButtons.forEach(function (button) {
     number in international format.
 
     Example format for Ghana:
-    233XXXXXXXXX
+    233543761984
 
     Do not include the + sign, spaces or hyphens.
 */
@@ -110,7 +110,7 @@ const WHATSAPP_NUMBER = "233543761984";
 function createWhatsAppLink(message) {
     const numberIsConfigured =
         /^\d{10,15}$/.test(WHATSAPP_NUMBER) &&
-        !WHATSAPP_NUMBER.endsWith("0000000000");
+        !WHATSAPP_NUMBER.endsWith("233543761984");
 
     if (!numberIsConfigured) {
         return null;
